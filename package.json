@@ -1,0 +1,33 @@
+{
+  "name": "prob",
+  "version": "0.1.0",
+  "description": "Error handling middleware for Koa",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --harmony-async-await './src/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zappen999/prob.git"
+  },
+  "keywords": [
+    "Koa",
+    "error",
+    "handling"
+  ],
+  "author": "Johan Kanefur <johan.canefur@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zappen999/prob/issues"
+  },
+  "homepage": "https://github.com/zappen999/prob#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-things": "^0.2.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6"
+  }
+}
