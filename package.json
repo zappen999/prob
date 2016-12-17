@@ -1,8 +1,8 @@
 {
   "name": "prob",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Error handling middleware for Koa",
-  "main": "index.js",
+  "main": "src/prob.js",
   "directories": {
     "test": "test"
   },
